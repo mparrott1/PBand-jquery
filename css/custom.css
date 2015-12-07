@@ -1,0 +1,161 @@
+/* custom.css */
+body {
+    width: 1024px;
+    background-color: mediumseagreen
+
+}
+
+#nav ul li { 
+    background-color: indianred;
+} 
+
+#arrows ul li {
+    background-color: indianred;
+}
+
+img { 
+    position: relative;
+    width: 100%;
+}
+
+h2 { 
+    position: absolute; 
+   top: 114px; 
+   left: 1000px; 
+   width: 100%;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+} 
+
+
+#content2 h2 {
+    position: absolute; 
+   top: 113px; 
+   left: 1000px; 
+   width: 100%;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+#content2 h2 span{
+    color: white; 
+   font: bold 30px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 0px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 24px; 
+}
+
+#content3 h2 {
+    position: absolute; 
+   top: 113px; 
+   left: 1000px; 
+   width: 100%;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+#content3 h2 span{
+    color: white; 
+   font: bold 40px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 0px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 31px; 
+}
+
+#content4 h2 {
+    position: absolute; 
+   top: 112px; 
+   left: 1000px; 
+   width: 100%;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+#content4 h2 span{
+    color: white; 
+   font: bold 35px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 0px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 12px; 
+}
+
+#content5 h2 {
+    position: absolute; 
+   top: 112px; 
+   left: 1000px; 
+   width: 100%;
+    transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+#content5 h2 span{
+    color: white; 
+   font: bold 45px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 0px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 26px; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 35px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 0px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 28px; 
+}
+
+h1 { 
+    font-size: 45px;
+    text-align: center;
+    border-bottom:
+}
+
+#wrapper {
+    width: 1000px;
+}
+
+#nav {
+    margin-left: -40px;
+}
+
+#nav ul li {
+    display: inline-block;
+    padding: 12px;
+    align-content: center;
+    border: 2px solid #000;
+}
+
+#arrows {
+    float: right;
+}
+
+#arrows ul li {
+    display: inline-block;
+    padding: 12px;
+    align-content: center;
+    border: 2px solid #000;
+}
+
+#main {
+    border: 2px solid #000;
+    padding: 12px;
+    margin-top: -21px;
+    background-color: rebeccapurple;
+    
+}
+
+#content2, #content3, #content4, #content5 {
+    display: none;
+}
+
+.steps {
+    height: 500px;
+    overflow: hidden;
+}
+
+
+
+
+
+
